@@ -2,12 +2,12 @@
 function verificarUsuario(usuario, callback) {
     setTimeout(() => {
       // Simulamos que los usuarios 'ana' y 'luis' existen
-      const usuariosExistentes = ['ana', 'luis'];
-      const existe = usuariosExistentes.includes(usuario);
-      callback(existe);
+    const usuariosExistentes = ['ana', 'luis'];
+    const existe = usuariosExistentes.includes(usuario);
+    callback(existe);
     }, 1000);
-  }
-  
+}
+
   // Comprobar si la cuenta del usuario está activa
   function comprobarCuentaActiva(usuario, callback) {
     setTimeout(() => {
